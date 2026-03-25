@@ -1,7 +1,7 @@
 # Weather Data Pipeline CLI Tool
 
 ## Overview
-Python-based command-line application that fetches real-time weather data from a public REST API and processes it into structured, human-readable output. The tool demonstrates API integration, data pipeline processing, and clean terminal-based visualization of weather insights.
+Python-based command-line application that fetches real-time weather data from a public REST API and processes it into structured, human-readable output. The tool demonstrates API integration, data pipeline processing, and clean terminal-based visualization of weather insights. Designed with a focus on modularity, reliability, and clear data flow from ingestion to output.
 
 ---
 
@@ -30,7 +30,7 @@ Python-based command-line application that fetches real-time weather data from a
 1. Input handling via CLI arguments (city or coordinates)  
 2. Geocoding to retrieve latitude/longitude  
 3. API request to fetch weather data  
-4. Data processing pipeline:
+4. Data processing pipeline (modular):
    - JSON parsing  
    - Data cleaning and structuring  
    - Feature extraction (temperature, precipitation, etc.)  
@@ -115,6 +115,8 @@ Data complete : 100.0%
 ──────────────────────────────────────────────────────────────
 ```
 
+- Includes pipeline latency measurement to track performance of API requests and data processing
+
 ---
 
 ## Features Demonstrated
@@ -131,6 +133,13 @@ Data complete : 100.0%
 - Parsing and transforming JSON into usable data structures  
 - Designing modular, maintainable Python code  
 - Debugging and improving performance using AI-assisted development tools  
+
+---
+
+## Future Improvements
+- Add caching to reduce repeated API calls  
+- Extend CLI with additional parameters (units, alerts, etc.)  
+- Integrate lightweight UI or web interface
 
 ---
 
