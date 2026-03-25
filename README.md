@@ -135,4 +135,4 @@ Data complete : 100.0%
 ---
 
 ## Notes
-AI tool (Claude) was used to assist with debugging, iteration, and performance improvements during development.
+AI tool (Claude) was used as an iterative coding partner to assist with debugging, improving error handling, refining logic, and accelerating development while maintaining understanding of underlying implementation.
